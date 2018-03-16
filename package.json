@@ -1,0 +1,36 @@
+{
+  "name": "ethpubsub",
+  "version": "0.0.1",
+  "description": "Publish-Subscribe topic manager using Solidity contracts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/truffle test",
+    "lint": "solium --dir ./contracts",
+    "coverage": "node_modules/.bin/solidity-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpurta/ethpubsub.git"
+  },
+  "keywords": [
+    "ethereum",
+    "pubsub",
+    "blockchain",
+    "decentralized"
+  ],
+  "author": "Chris Purta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpurta/ethpubsub/issues"
+  },
+  "homepage": "https://github.com/cpurta/ethpubsub#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "solidity-coverage": "^0.4.13",
+    "solium": "^1.1.5",
+    "truffle": "^4.1.3"
+  }
+}
