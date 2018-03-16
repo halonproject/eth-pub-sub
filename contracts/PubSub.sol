@@ -88,6 +88,9 @@ contract PubSub is Ownable {
      * @param _user is the address in question of subscription
      */
     function isSubscribed(string _topic, address _user) public view returns (bool) {
+        if (!_topicExists(_topic)) {
+            return false;
+        }
         return topicSubscribers[_topic][_user];
     }
 

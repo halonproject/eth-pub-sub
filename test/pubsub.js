@@ -106,6 +106,12 @@ contract("PubSub", accounts => {
                 await pubsub.unsubscribe("xyz", {from: user1})
             })
         })
+
+        it("cannot not be subscribed to removed topic", async () => {
+            await pubsub.removeTopic("bar", {from: owner})
+
+            assert.isFalse(await pubsub.isSubscribed("bar", user2))
+        })
     })
 
 })
