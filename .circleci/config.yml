@@ -31,5 +31,5 @@ jobs:
 
       # run tests!
       - run: npm test
-
-      - run: npm run coverage && ls -lah && mv coverage $CIRCLE_ARTIFACTS
+      - run: echo $CIRCLE_ARTIFACTS
+      - run: npm run coverage && mv coverage $CIRCLE_ARTIFACTS
