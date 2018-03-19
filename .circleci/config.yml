@@ -38,5 +38,10 @@ jobs:
             mv coverage /tmp/artifacts;
             mv coverage.json /tmp/artifacts;
 
+      - run:
+          name: Coveralls
+          command: |
+            cat coverage/lcov.info | ./node_modules/.bin/coveralls;
+
       - store_artifacts:
           path: /tmp/artifacts
