@@ -35,7 +35,8 @@ jobs:
           name: Coverage
           command: |
             npm run coverage;
-            mv coverage /tmp/artifacts
+            mv coverage /tmp/artifacts;
+            mv coverage.json /tmp/artifacts;
 
       - store_artifacts:
           path: /tmp/artifacts
