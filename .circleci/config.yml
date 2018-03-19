@@ -1,4 +1,4 @@
-version: 1.0
+version: 2
 jobs:
   build:
     docker:
@@ -31,4 +31,11 @@ jobs:
 
       # run tests!
       - run: npm test
-      - run: npm run coverage && mv coverage $CIRCLE_ARTIFACTS
+      - run:
+          name: Coverage
+          command: |
+            npm run coverage;
+            mv converage /tmp/artifacts
+
+      - store_artifacts:
+          path: /tmp/artifacts
