@@ -1,5 +1,7 @@
 # eth-pub-sub
 
+[![CircleCI](https://circleci.com/gh/HalonProject/eth-pub-sub/tree/master.svg?style=svg)](https://circleci.com/gh/HalonProject/eth-pub-sub/tree/master)
+
 Experimental solidity contracts that are meant to manage the subscription of addresses
 to IPFS PubSub topics. These are meant to be used in conjunction with apps that wish
 to not have to manage the subscriptions and just let a contract do the work.
