@@ -1,6 +1,6 @@
 # eth-pub-sub
 
-[![CircleCI](https://circleci.com/gh/HalonProject/eth-pub-sub/tree/master.svg?style=svg)](https://circleci.com/gh/HalonProject/eth-pub-sub/tree/master)[![Coverage Status](https://coveralls.io/repos/github/HalonProject/eth-pub-sub/badge.svg?branch=master)](https://coveralls.io/github/HalonProject/eth-pub-sub?branch=master)
+[![CircleCI](https://circleci.com/gh/halonproject/eth-pub-sub/tree/master.svg?style=svg)](https://circleci.com/gh/HalonProject/eth-pub-sub/tree/master)[![Coverage Status](https://coveralls.io/repos/github/HalonProject/eth-pub-sub/badge.svg?branch=master)](https://coveralls.io/github/HalonProject/eth-pub-sub?branch=master)
 
 Experimental solidity contracts that are meant to manage the subscription of addresses
 to IPFS PubSub topics. These are meant to be used in conjunction with apps that wish
