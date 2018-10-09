@@ -29,8 +29,8 @@
   "homepage": "https://github.com/cpurta/ethpubsub#readme",
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "solidity-coverage": "^0.4.15",
-    "solium": "^1.1.6",
-    "truffle": "^4.1.7"
+    "solidity-coverage": "^0.5.11",
+    "solium": "^1.1.8",
+    "truffle": "^4.1.14"
   }
 }
